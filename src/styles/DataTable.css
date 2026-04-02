@@ -1,0 +1,31 @@
+.data-table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.data-table th, .data-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.data-table th {
+    background-color: #f4f4f4;
+}
+
+.data-table tr:nth-child(even) {
+    background-color: #fafafa;
+}
+
+.data-table input {
+    width: 100%;
+    padding: 4px;
+    box-sizing: border-box;
+}
+
+.data-table button {
+    cursor: pointer;
+    padding: 4px 8px;
+    margin-right: 4px;
+}
